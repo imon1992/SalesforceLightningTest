@@ -1,0 +1,28 @@
+<aura:component >
+    <!-- <aura:handler name="init" value="{!this}" action="{!c.createItems}" /> -->
+    
+    <aura:attribute name="actions" type="Map[]"/>
+    <aura:attribute name="book" type="BooksSelector"/>
+    <aura:attribute name="bookKey" type="String"/>
+    
+    <aura:attribute name="actionName" type="String"/>
+    <aura:attribute name="genres" type="Map[]"/>
+    <aura:attribute name="authors" type="Map[]"/>
+    
+    <lightning:buttonMenu alternativeText="Action" onselect="{! c.handleMenuSelect }">
+        <aura:iteration var="action" items="{! v.actions }">
+            <lightning:menuItem aura:id="actionMenuItems" label="{! action.label }" value="{! action.value }"/>
+        </aura:iteration>
+    </lightning:buttonMenu>
+    
+    
+    
+    <c:AddAuthorGenre book="{!v.book}" actionName="{!v.actionName}" 
+             actionRecords="{!v.genres}" aura:id="genre"/>
+    
+    <c:AddAuthorGenre book="{!v.book}"  actionName="{!v.actionName}" 
+             actionRecords="{!v.authors}" aura:id="author"/>
+    
+    <c:deleteBook bookId="{!v.book.recordId}" bookKey="{!v.bookKey}" aura:id="delete"/>
+    
+</aura:component>

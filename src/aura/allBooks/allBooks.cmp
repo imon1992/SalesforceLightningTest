@@ -1,0 +1,100 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" controller="BooksController">
+    
+    <aura:attribute type="Integer"      name="pageNumber" default="1"/>
+    <aura:attribute type="Integer"      name="maxPage"			default="1" />
+    <aura:attribute name="totalBooks" type="Integer"/>
+    <aura:attribute name="books" type="BooksSelector[]" />
+    <aura:attribute name="currentBooks" type="BooksSelector[]" />
+    <aura:attribute name="sortField" type="String" default="Name"/>
+    <aura:attribute name="sortAsc" type="Boolean" default="false"/>
+
+    <aura:attribute name="genres" type="GenresSelector[]"/>
+    <aura:attribute name="authors" type="AuthorsSelector[]"/>
+    <aura:attribute name="actions" type="Map[]"/>
+    <!-- <aura:attribute name="loaded" type="Boolean" default="true"/> -->
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:handler name="deleteBook" event="c:DeleteRecord" action="{!c.deleteBook}"/>
+    <aura:handler name="change"			value="{!v.pageNumber}"	action="{!c.changeCurrentBooks}" />
+    
+    <!-- <aura:handler event="aura:waiting" action="{!c.showSpinner}"/> -->
+    <!-- <center><ui:spinner aura:id="spinner"/></center> -->
+    <!-- <aura:if isTrue="{! v.loaded }">
+            <lightning:spinner aura:id="spinner" variant="brand" size="large"/>
+    </aura:if> -->
+    
+
+    <article class="slds-card">
+        <div class="slds-card__header slds-grid">
+            <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                <div class="slds-media__figure">
+                    <span class="slds-icon_container slds-icon-standard-contact" title="description of icon when needed">
+                        <lightning:icon iconName="standard:contact" />
+                    </span>
+                </div>
+                <div class="slds-media__body">
+                    <h2>
+                        <span class="slds-text-heading_small">All Books</span>
+                    </h2>
+                </div>
+            </header>
+            <div class="slds-no-flex">
+                <lightning:button class="slds-button slds-button_neutral" onclick="{!c.createnewBook}" label="New"/>
+            </div>
+        </div>
+        <div class="slds-card__body slds-card__body_inner">{!v.totalBooks} Books</div>
+    </article>
+    <c:pagination currentPageNumber="{!v.pageNumber}" 
+                  maxPageNumber="{!v.maxPage}" />
+    <lightning:layout >
+        
+        <table class="slds-table slds-table_bordered slds-table_cell-buffer">
+            <thead>
+                <tr class="slds-text-title_caps">
+                    <th scope="col">
+                        <div class="slds-truncate" 
+                             title="Opportunity Name"
+                             onclick="{!c.sortByName}">Book Name
+                            <aura:if isTrue="{!v.sortField=='Name'}">
+                                <c:sortArrow sortAsc='{!v.sortAsc}'/>
+                            </aura:if>
+                        </div>
+                    </th>
+                    <th scope="col">
+                        <div class="slds-truncate" title="Account Name">Genre(s) Name
+                        </div>
+                    </th>
+                    <th scope="col">
+                        <div class="slds-truncate" title="Account Name">Authors(s) Name</div>
+                    </th>
+                    <th scope="col">
+                        <div class="slds-truncate" 
+                             title="Account Name" 
+                             onclick="{!c.sortByPrice}">Price
+                            <aura:if isTrue="{!v.sortField=='Price__c'}">
+                                <c:sortArrow sortAsc='{!v.sortAsc}'/>
+                            </aura:if>
+                        </div>
+                    </th>
+                    <th scope="col">
+                        <div class="slds-truncate" 
+                             title="Account Name">Action(s)
+                            
+                        </div>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <aura:iteration var="book" items="{!v.currentBooks}" indexVar="key">
+                    <c:booksList book='{!book}' 
+                                 bookKey="{!key}" 
+                                 genres="{!v.genres}"
+                                 authors="{!v.authors}" 
+                                 actions="{!v.actions}"/>
+                </aura:iteration>
+            </tbody>
+        </table>
+        
+        
+    </lightning:layout>
+</aura:component>

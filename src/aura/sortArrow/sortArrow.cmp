@@ -1,0 +1,11 @@
+<aura:component >
+    <aura:attribute name="sortAsc" type="Boolean"	/>
+    <span>
+        <aura:if isTrue="{!v.sortAsc}">
+            &#8593;
+            <aura:set attribute="else">
+                &#8595;
+            </aura:set>
+        </aura:if>
+    </span>
+</aura:component>

@@ -1,0 +1,330 @@
+Deploy Failed.
+
+Id: 0Af0O00000KwyGISAZ
+Status: Failed
+Success: false
+Done: true
+Number Component Errors; 310
+Number Components Deployed: 188
+Number Components Total: 498
+Number Test Errors; 0
+Number Tests Completed: 0
+Number Tests Total: 0
+
+Failures:
+ - Error on src/pages/Candidates_LDS_General.page : The specified Package Version number does not exist for that Package: sf_com_apps, 1.6
+ - Error on src/pages/InlineRoster.page : The specified Package Version number does not exist for that Package: sf_com_apps, 1.6
+ - Error on src/pages/LightningContainer.page : The specified Package Version number does not exist for that Package: sf_com_apps, 1.6
+ - Error on src/pages/Position_Top_Candidates_LDS.page : The specified Package Version number does not exist for that Package: sf_com_apps, 1.6
+ - Error on src/pages/Position_Top_Candidates_LDS_PDF.page : The specified Package Version number does not exist for that Package: sf_com_apps, 1.6
+ - Error on src/pages/test.page : The specified Package Version number does not exist for that Package: sf_com_apps, 1.6
+ - Error on src/pages/TestLDSPublisher.page : The specified Package Version number does not exist for that Package: sf_com_apps, 1.6
+ - Error on src/pages/metadatabrowser.page : The specified Package Version number does not exist for that Package: sf_com_apps, 1.6
+ - Error on src/pages/metadatadata.page : The specified Package Version number does not exist for that Package: sf_com_apps, 1.6
+ - Error on src/pages/metadatadeploy.page : The specified Package Version number does not exist for that Package: sf_com_apps, 1.6
+ - Error on src/pages/metadataretrieve.page : The specified Package Version number does not exist for that Package: sf_com_apps, 1.6
+ - Error on src/pages/remotesitepage.page : The specified Package Version number does not exist for that Package: sf_com_apps, 1.6
+ - Error on src/pages/ContactResume.page : The specified Package Version number does not exist for that Package: sf_com_apps, 1.6
+ - Error on src/pages/RecruitmentHome_LDS.page : The specified Package Version number does not exist for that Package: sf_com_apps, 1.6
+ - Error on src/flexipages/CustomQuote_Record_Page.flexipage : The object type you specified CustomQuote__c is invalid.
+ - Error on src/flexipages/Candidate_Record_Page.flexipage : The object type you specified Candidate__c is invalid.
+ - Error on src/flexipages/Lead_Record_Page.flexipage : Your component name and API version don't match. The 'runtime_sales_social:socialPanel' component is named 'sfa:socialPanel' in API version 34.
+ - Error on src/applications/ChartjsSample.app : In field: defaultLandingTab - no CustomTab named chartjsSample found
+ - Error on src/applications/Custom_Nav_Menu.app : In field: tab - no CustomTab named Getting_Started found
+ - Error on src/applications/Recruiting.app : In field: defaultLandingTab - no CustomTab named Position__c found
+ - Error on src/applications/Recruitment.app : In field: tab - no CustomTab named Interviewer_Console found
+ - Error on src/applications/standard__AppLauncher.app : In field: tab - no CustomTab named Invoice__c found
+ - Error on src/applications/standard__Chatter.app : In field: tab - no CustomTab named Invoice__c found
+ - Error on src/applications/standard__Community.app : In field: tab - no CustomTab named Invoice__c found
+ - Error on src/applications/standard__Content.app : In field: tab - no CustomTab named Invoice__c found
+ - Error on src/applications/standard__LightningSales.app : Tab standard-Task can't be added to Salesforce Classic app standard__LightningSales because it's not supported in Salesforce Classic apps.
+ - Error on src/applications/standard__Marketing.app : In field: tab - no CustomTab named Invoice__c found
+ - Error on src/applications/standard__Platform.app : In field: tab - no CustomTab named Invoice__c found
+ - Error on src/applications/standard__Sales.app : In field: tab - no CustomTab named Invoice__c found
+ - Error on src/applications/standard__Service.app : In field: tab - no CustomTab named Invoice__c found
+ - Error on src/applications/standard__ServiceConsole.app : In field: tab - no CustomTab named Invoice__c found
+ - Error on src/applications/standard__Sites.app : In field: tab - no CustomTab named Invoice__c found
+ - Error on src/aura/TwitterUserDetails/TwitterUserDetails.design : Invalid definition for null:Twitter_Lightning_Controller: null
+ - Error on src/aura/TwitterUserDetails/TwitterUserDetails.cmp : Invalid definition for null:Twitter_Lightning_Controller: null
+ - Error on src/aura/CandidatesLComponent/CandidatesLComponent.cmp : Invalid definition for null:LightningServerController: null
+ - Error on src/classes/Referrals_Apex_Controller.cls (36:50) : Variable does not exist: referralsList
+ - Error on src/classes/Referrals_Apex_Controller.cls (37:18) : Invalid type: testautonumdata__Referral__c
+ - Error on src/classes/Referrals_Apex_Controller.cls (42:85) : Variable does not exist: e
+ - Error on src/classes/Referrals_Apex_Controller.cls (48:30) : Variable does not exist: e
+ - Error on src/classes/Referrals_Apex_Controller.cls (50:31) : Variable does not exist: e.Owner
+ - Error on src/classes/Referrals_Apex_Controller.cls (52:29) : Variable does not exist: e
+ - Error on src/classes/Referrals_Apex_Controller.cls (54:37) : Variable does not exist: e
+ - Error on src/classes/Referrals_Apex_Controller.cls (56:34) : Variable does not exist: e.createddate
+ - Error on src/classes/ReferralsServerController.cls (183:42) : Variable does not exist: e.createddate
+ - Error on src/classes/Referrals_Apex_Controller.cls (27:9) : Invalid type: testautonumdata__Referral__c
+ - Error on src/classes/Referrals_Apex_Controller.cls (34:13) : Variable does not exist: referralsList
+ - Error on src/aura/CandidateMapContainer_Test_App/CandidateMapContainer_Test_App.app : Invalid definition for null:MapServerController: null
+ - Error on src/aura/CandidateDropDownList/CandidateDropDownList.design : Invalid definition for null:CandidateDropDownController: null
+ - Error on src/aura/CandidateDropDownList/CandidateDropDownList.cmp : Invalid definition for null:CandidateDropDownController: null
+ - Error on src/aura/OfferLetterSPA/OfferLetterSPA.cmp : Invalid definition for null:OfferLetterCompController: null
+ - Error on src/aura/RecordMarker/RecordMarker.cmp : Invalid definition for null:MapServerController: null
+ - Error on src/aura/OfferPreview/OfferPreview.cmp : Invalid definition for null:OfferLetterCompController: null
+ - Error on src/aura/OffersLCRecordContext/OffersLCRecordContext.design : Invalid definition for null:OffersServerController: null
+ - Error on src/aura/OffersLCRecordContext/OffersLCRecordContext.cmp : Invalid definition for null:OffersServerController: null
+ - Error on src/aura/Twitter_Picture_Viewer/Twitter_Picture_Viewer.design : Invalid definition for null:Twitter_Lightning_Controller: null
+ - Error on src/aura/Twitter_Picture_Viewer/Twitter_Picture_Viewer.cmp : Invalid definition for null:Twitter_Lightning_Controller: null
+ - Error on src/aura/Linkedin_Test_App/Linkedin_Test_App.app : Invalid definition for null:Linkedin_Lightning_Controller: null
+ - Error on src/aura/QuickCandidates/QuickCandidates.cmp : Invalid definition for null:CandidateDropDownController: null
+ - Error on src/aura/OfferTemplate/OfferTemplate.cmp : Invalid definition for null:OfferLetterCompController: null
+ - Error on src/aura/CandidateRecordMarker/CandidateRecordMarker.design : Invalid definition for null:CandidateController: null
+ - Error on src/aura/CandidateRecordMarker/CandidateRecordMarker.cmp : Invalid definition for null:CandidateController: null
+ - Error on src/aura/testDataService/testDataService.cmp : No COMPONENT named markup://force:recordPreview found : [markup://c:testDataService]
+ - Error on src/aura/Linkedin_Picture/Linkedin_Picture.design : Invalid definition for null:Linkedin_Lightning_Controller: null
+ - Error on src/aura/Linkedin_Picture/Linkedin_Picture.cmp : Invalid definition for null:Linkedin_Lightning_Controller: null
+ - Error on src/aura/OffersLApp/OffersLApp.app : Invalid definition for null:OffersServerController: null
+ - Error on src/aura/Twitter_Explorer/Twitter_Explorer.design : Invalid definition for null:Twitter_Lightning_Controller: null
+ - Error on src/aura/Twitter_Explorer/Twitter_Explorer.cmp : Invalid definition for null:Twitter_Lightning_Controller: null
+ - Error on src/aura/CandidateMapContainer/CandidateMapContainer.cmp : Invalid definition for null:MapServerController: null
+ - Error on src/classes/Sparkle_After_Install.cls (5:7) : Invalid type: Twitter_User__c
+ - Error on src/classes/Sparkle_After_Install.cls (8:48) : Method does not exist or incorrect signature: void upsert(Twitter_User__c, Boolean) from the type Database
+ - Error on src/classes/TestFactory.cls (57:49) : Invalid type: testautonumdata__Candidate__c
+ - Error on src/classes/TestFactory.cls (72:49) : Invalid type: testautonumdata__Candidate__c
+ - Error on src/classes/TestFactory.cls (88:48) : Invalid type: testautonumdata__Position__c
+ - Error on src/classes/TestFactory.cls (102:49) : Invalid type: testautonumdata__Interview__c
+ - Error on src/classes/TestFactory.cls (117:48) : Invalid type: testautonumdata__Interviewer__c
+ - Error on src/classes/TestFactory.cls (127:45) : Invalid type: testautonumdata__Offer__c
+ - Error on src/classes/TestFactory.cls (180:49) : Invalid type: testautonumdata__Candidate__c
+ - Error on src/classes/TestFactory.cls (188:49) : Invalid type: testautonumdata__Candidate__c
+ - Error on src/classes/TestFactory.cls (196:48) : Invalid type: testautonumdata__Position__c
+ - Error on src/classes/TestFactory.cls (204:49) : Invalid type: testautonumdata__Interview__c
+ - Error on src/classes/TestFactory.cls (212:51) : Invalid type: testautonumdata__Interviewer__c
+ - Error on src/aura/OfferConfirm/OfferConfirm.cmp : Invalid definition for null:OfferLetterCompController: null
+ - Error on src/aura/OfferLetterSPA_Backup/OfferLetterSPA_Backup.cmp : Invalid definition for null:OfferLetterCompController: null
+ - Error on src/aura/CandidatesLAppTest/CandidatesLAppTest.app : Invalid definition for null:LightningServerController: null
+ - Error on src/aura/React_LC_Container/React_LC_Container.cmp : Invalid definition for null:Twitter_Lightning_Controller: null
+ - Error on src/aura/Map_Test_App/Map_Test_App.app : Invalid definition for null:CandidateController: null
+ - Error on src/aura/CandidateList/CandidateList.cmp : Invalid definition for null:CandidateController: null
+ - Error on src/aura/CandidateLocation/CandidateLocation.cmp : Invalid definition for null:CandidateController: null
+ - Error on src/aura/Twitter_Test_App/Twitter_Test_App.app : Invalid definition for null:Twitter_Lightning_Controller: null
+ - Error on src/aura/TwitterUserDetails_New_LightningLayout/TwitterUserDetails_New_LightningLayout.cmp : Invalid definition for null:Twitter_Lightning_Controller: null
+ - Error on src/aura/OfferDetails/OfferDetails.cmp : Invalid definition for null:OfferLetterCompController: null
+ - Error on src/classes/TestFactory.cls (220:45) : Invalid type: testautonumdata__Offer__c
+ - Error on src/classes/TestFactory.cls (59:19) : Invalid type: testautonumdata__Candidate__c
+ - Error on src/classes/TestFactory.cls (74:19) : Invalid type: testautonumdata__Candidate__c
+ - Error on src/classes/TestFactory.cls (93:19) : Invalid type: testautonumdata__Position__c
+ - Error on src/classes/TestFactory.cls (107:19) : Invalid type: testautonumdata__Interview__c
+ - Error on src/classes/TestFactory.cls (119:19) : Invalid type: testautonumdata__Interviewer__c
+ - Error on src/classes/TestFactory.cls (129:19) : Invalid type: testautonumdata__Offer__c
+ - Error on src/classes/TestFactory.cls (182:11) : Invalid type: testautonumdata__Candidate__c
+ - Error on src/classes/TestFactory.cls (183:11) : DML requires SObject or SObject list type: testautonumdata__Candidate__c
+ - Error on src/classes/TestFactory.cls (190:11) : Invalid type: testautonumdata__Candidate__c
+ - Error on src/classes/TestFactory.cls (191:11) : DML requires SObject or SObject list type: testautonumdata__Candidate__c
+ - Error on src/classes/TestFactory.cls (198:11) : Invalid type: testautonumdata__Position__c
+ - Error on src/classes/TestFactory.cls (199:11) : DML requires SObject or SObject list type: testautonumdata__Position__c
+ - Error on src/classes/TestFactory.cls (206:11) : Invalid type: testautonumdata__Interview__c
+ - Error on src/classes/TestFactory.cls (207:11) : DML requires SObject or SObject list type: testautonumdata__Interview__c
+ - Error on src/classes/TestFactory.cls (214:11) : Invalid type: testautonumdata__Interviewer__c
+ - Error on src/classes/TestFactory.cls (215:11) : DML requires SObject or SObject list type: testautonumdata__Interviewer__c
+ - Error on src/classes/TestFactory.cls (222:11) : Invalid type: testautonumdata__Offer__c
+ - Error on src/classes/TestFactory.cls (223:11) : DML requires SObject or SObject list type: testautonumdata__Offer__c
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (7:3) : Invalid type: testautonumdata__Candidate__c
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (31:9) : Invalid type: testautonumdata__Candidate__c
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (32:9) : Invalid type: testautonumdata__Candidate__c
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (34:35) : Variable does not exist: candidateA
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (34:71) : Variable does not exist: candidateB
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (111:9) : Invalid type: testautonumdata__Candidate__c
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (115:9) : Invalid type: Twitter_User__c
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (118:49) : Method does not exist or incorrect signature: void upsert(Twitter_User__c, Boolean) from the type Database
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (121:71) : Variable does not exist: candidateA
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (126:90) : Variable does not exist: candidateA
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (130:92) : Variable does not exist: candidateA
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (144:9) : Invalid type: testautonumdata__Candidate__c
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (145:9) : Invalid type: testautonumdata__Candidate__c
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (147:9) : Invalid type: testautonumdata__Position__c
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (148:9) : Invalid type: testautonumdata__Position__c
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (150:9) : Invalid type: testautonumdata__Interview__c
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (151:9) : Invalid type: testautonumdata__Interview__c
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (161:9) : Invalid type: testautonumdata__Candidate__c
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (163:9) : Invalid type: testautonumdata__Interview__c
+ - Error on src/classes/BirthdayCronJob.cls (33:24) : SELECT Id, email, Birthdate, Send_Birthday_Email__c, HasOptedOutOfEmail
+                             ^
+ERROR at Row:1:Column:30
+No such column 'Send_Birthday_Email__c' on entity 'Contact'. If you are attempting to use a custom field, be sure to append the '__c' after the custom field name. Please reference your WSDL or the describe call for the appropriate names.
+ - Error on src/classes/BirthdayCronJob.cls (48:26) : Variable does not exist: Send_Birthday_Email__c
+ - Error on src/classes/BirthdayCronJob.cls (76:24) : SELECT Id, email, Anniversary_Date__c, Send_Anniversary_Email__c
+                  ^
+ERROR at Row:1:Column:19
+No such column 'Anniversary_Date__c' on entity 'Contact'. If you are attempting to use a custom field, be sure to append the '__c' after the custom field name. Please reference your WSDL or the describe call for the appropriate names.
+ - Error on src/classes/BirthdayCronJob.cls (89:26) : Variable does not exist: Send_Anniversary_Email__c
+ - Error on src/classes/BirthdayCronJobTest.cls (20:15) : Variable does not exist: Anniversary_Date__c
+ - Error on src/classes/BirthdayCronJobTest.cls (21:15) : Variable does not exist: Send_Birthday_Email__c
+ - Error on src/classes/BirthdayCronJobTest.cls (22:15) : Variable does not exist: Send_Anniversary_Email__c
+ - Error on src/classes/CandidateController.cls (6:38) : Invalid type: Candidate__c
+ - Error on src/classes/CandidateController.cls (13:38) : Invalid type: Candidate__c
+ - Error on src/classes/CandidateController.cls (7:16) : Invalid type: Schema.testautonumdata__Candidate__c
+ - Error on src/classes/CandidateController.cls (14:16) : Invalid type: Schema.testautonumdata__Candidate__c
+ - Error on src/classes/CandidateDropDownController.cls (4:38) : Invalid type: Candidate__c
+ - Error on src/classes/CandidateDropDownController.cls (9:38) : Invalid type: Candidate__c
+ - Error on src/classes/CandidateDropDownController.cls (15:32) : Invalid type: Candidate__c
+ - Error on src/classes/CandidateDropDownController.cls (5:16) : Invalid type: Schema.Candidate__c
+ - Error on src/classes/CandidateDropDownController.cls (11:16) : Invalid type: Schema.Candidate__c
+ - Error on src/classes/CandidateDropDownController.cls (16:16) : Invalid type: Schema.Candidate__c
+ - Error on src/classes/CandidateGeneralController.cls (5:48) : Invalid type: testautonumdata__Candidate__c
+ - Error on src/classes/CandidateGeneralController.cls (7:38) : Variable does not exist: Schema.sObjectType.testautonumdata__Candidate__c.fields.id
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (231:85) : Variable does not exist: offerA
+ - Error on src/classes/Twitter_Lightning_Controller.cls (189:9) : Invalid type: Twitter_User__c
+ - Error on src/classes/Twitter_Lightning_Controller.cls (190:35) : Variable does not exist: myCS1
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (165:9) : Invalid type: testautonumdata__Interviewer__c
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (168:58) : Variable does not exist: interviewerA
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (169:49) : Constructor not defined: [ApexPages.StandardController].<Constructor>(testautonumdata__Interviewer__c)
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (208:3) : Invalid type: testautonumdata__Position__c
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (209:9) : Invalid type: testautonumdata__Candidate__c
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (212:94) : Variable does not exist: candidateA
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (217:8) : Invalid type: testautonumdata__Offer__c
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (222:112) : Variable does not exist: candidateA
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (222:127) : Variable does not exist: offerA
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (226:72) : Variable does not exist: offerA
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (226:83) : Variable does not exist: candidateA
+ - Error on src/classes/Test_Lightning_Apex_Controllers.cls (227:78) : Variable does not exist: candidateA
+ - Error on src/classes/CandidateGeneralController.cls (8:41) : Variable does not exist: Schema.sObjectType.testautonumdata__Candidate__c.fields.testautonumdata__Average_Score__c
+ - Error on src/classes/CandidateGeneralController.cls (9:41) : Variable does not exist: Schema.sObjectType.testautonumdata__Candidate__c.fields.testautonumdata__Number_of_Interviews__c
+ - Error on src/classes/CandidateGeneralController.cls (10:41) : Variable does not exist: Schema.sObjectType.testautonumdata__Candidate__c.fields.Name
+ - Error on src/classes/Twitter_Lightning_Controller.cls (191:38) : Variable does not exist: myCS1
+ - Error on src/classes/Twitter_Lightning_Controller.cls (342:9) : Invalid type: Twitter_User__c
+ - Error on src/classes/Twitter_Lightning_Controller.cls (343:35) : Variable does not exist: myCS1
+ - Error on src/classes/Twitter_Lightning_Controller.cls (344:38) : Variable does not exist: myCS1
+ - Error on src/classes/linkedinauth.cls (63:8) : Invalid type: testautonumdata__LinkedinUser__c
+ - Error on src/classes/linkedinauth.cls (66:48) : Method does not exist or incorrect signature: void upsert(testautonumdata__LinkedinUser__c, Schema.SObjectField, Boolean) from the type Database
+ - Error on src/classes/myControllerExtension.cls (3:19) : Invalid type: testautonumdata__Interviewer__c
+ - Error on src/classes/myControllerExtension.cls (9:28) : Invalid type: testautonumdata__Interviewer__c
+ - Error on src/classes/myControllerExtension.cls (13:27) : Variable does not exist: interviewer
+ - Error on src/classes/myControllerExtension.cls (13:53) : Variable does not exist: interviewer
+ - Error on src/classes/testOOOTrigger.cls (18:6) : Invalid type: Out_Of_Office__c
+ - Error on src/classes/testOOOTrigger.cls (23:6) : DML requires SObject or SObject list type: Out_Of_Office__c
+ - Error on src/classes/testOOOTrigger.cls (25:6) : Invalid type: Out_Of_Office__c
+ - Error on src/classes/testOOOTrigger.cls (27:46) : Invalid type: Out_Of_Office__c
+ - Error on src/classes/linkedinauth.cls (62:46) : Variable does not exist: testautonumdata__LinkedinUser__c.Fields
+ - Error on src/classes/CandidateGeneralController.cls (15:22) : Invalid type: Schema.testautonumdata__Candidate__c
+ - Error on src/classes/CandidateListController.cls (4:38) : Invalid type: Candidate__c
+ - Error on src/classes/CandidateListController.cls (5:16) : Invalid type: Schema.Candidate__c
+ - Error on src/classes/CandidateMapController.cls (4:38) : Invalid type: Candidate__c
+ - Error on src/classes/CandidateGeneralController.cls (12:9) : Invalid type: testautonumdata__Candidate__c
+ - Error on src/classes/CandidateMapController.cls (12:38) : Invalid type: Candidate__c
+ - Error on src/classes/CandidateMapController.cls (5:16) : Invalid type: Schema.Candidate__c
+ - Error on src/classes/CandidateMapController.cls (13:16) : Invalid type: Schema.Candidate__c
+ - Error on src/classes/testOfferLetter.cls (8:3) : Invalid type: testautonumdata__Position__c
+ - Error on src/classes/testOfferLetter.cls (9:9) : Invalid type: testautonumdata__Candidate__c
+ - Error on src/classes/testOfferLetter.cls (12:94) : Variable does not exist: candidateA
+ - Error on src/classes/testOfferLetter.cls (17:8) : Invalid type: testautonumdata__Offer__c
+ - Error on src/classes/testOfferLetter.cls (22:112) : Variable does not exist: candidateA
+ - Error on src/classes/testOfferLetter.cls (22:127) : Variable does not exist: offerA
+ - Error on src/classes/testOfferLetter.cls (26:72) : Variable does not exist: offerA
+ - Error on src/classes/testOfferLetter.cls (26:83) : Variable does not exist: candidateA
+ - Error on src/classes/testOfferLetter.cls (27:78) : Variable does not exist: candidateA
+ - Error on src/classes/testOfferLetter.cls (31:85) : Variable does not exist: offerA
+ - Error on src/classes/twitterauth.cls (133:50) : Variable does not exist: testautonumdata__Twitter_User__c.Fields
+ - Error on src/classes/twitterauth.cls (134:12) : Invalid type: testautonumdata__Twitter_User__c
+ - Error on src/classes/twitterauth.cls (137:52) : Method does not exist or incorrect signature: void upsert(testautonumdata__Twitter_User__c, Schema.SObjectField, Boolean) from the type Database
+ - Error on src/classes/LightningServerController.cls (26:9) : Invalid type: testautonumdata__Candidate__c
+ - Error on src/classes/LightningServerController.cls (35:14) : Invalid type: testautonumdata__Candidate__c
+ - Error on src/classes/LightningServerController.cls (38:73) : Variable does not exist: e
+ - Error on src/classes/LightningServerController.cls (41:28) : Variable does not exist: e
+ - Error on src/classes/LightningServerController.cls (43:45) : Variable does not exist: e
+ - Error on src/classes/LightningServerController.cls (45:51) : Variable does not exist: e
+ - Error on src/classes/Linkedin_Lightning_Controller.cls (14:9) : Invalid type: testautonumdata__LinkedinUser__c
+ - Error on src/classes/Linkedin_Lightning_Controller.cls (15:24) : Variable does not exist: myCS1
+ - Error on src/classes/MapServerController.cls (11:16) : Invalid type: Schema.Candidate__c
+ - Error on src/classes/MyCustomController.cls (9:48) : Invalid type: testautonumdata__Candidate__c
+ - Error on src/classes/MyCustomController.cls (27:47) : Invalid type: testautonumdata__Position__c
+ - Error on src/classes/MapRemoter.cls (4:38) : Invalid type: Candidate__c
+ - Error on src/classes/MapRemoter.cls (5:16) : Invalid type: Schema.Candidate__c
+ - Error on src/classes/MapServerController.cls (3:38) : Invalid type: Candidate__c
+ - Error on src/classes/MapServerController.cls (10:38) : Invalid type: Candidate__c
+ - Error on src/classes/MapServerController.cls (4:16) : Invalid type: Schema.Candidate__c
+ - Error on src/classes/MyCustomController.cls (49:48) : Invalid type: testautonumdata__Interview__c
+ - Error on src/classes/MyCustomController.cls (12:41) : Variable does not exist: Schema.sObjectType.testautonumdata__Candidate__c.fields.id
+ - Error on src/classes/MyCustomController.cls (13:41) : Variable does not exist: Schema.sObjectType.testautonumdata__Candidate__c.fields.testautonumdata__Average_Score__c
+ - Error on src/classes/MyCustomController.cls (14:41) : Variable does not exist: Schema.sObjectType.testautonumdata__Candidate__c.fields.testautonumdata__Number_of_Interviews__c
+ - Error on src/classes/MyCustomController.cls (15:41) : Variable does not exist: Schema.sObjectType.testautonumdata__Candidate__c.fields.Name
+ - Error on src/classes/MyCustomController.cls (16:9) : Invalid type: testautonumdata__Candidate__c
+ - Error on src/classes/MyCustomController.cls (19:22) : Invalid type: Schema.testautonumdata__Candidate__c
+ - Error on src/classes/MyCustomController.cls (30:41) : Variable does not exist: Schema.sObjectType.testautonumdata__Position__c.fields.id
+ - Error on src/classes/MyCustomController.cls (32:41) : Variable does not exist: Schema.sObjectType.testautonumdata__Position__c.fields.ownerid
+ - Error on src/classes/MyCustomController.cls (33:41) : Variable does not exist: Schema.sObjectType.testautonumdata__Position__c.fields.Name
+ - Error on src/classes/MyCustomController.cls (34:41) : Variable does not exist: Schema.sObjectType.testautonumdata__Position__c.fields.testautonumdata__Fullfilment_Date_Limit__c
+ - Error on src/classes/MyCustomController.cls (35:41) : Variable does not exist: Schema.sObjectType.testautonumdata__Position__c.fields.testautonumdata__Hiring_Manager__c
+ - Error on src/classes/MyCustomController.cls (37:9) : Invalid type: testautonumdata__Position__c
+ - Error on src/classes/MyCustomController.cls (40:21) : Invalid type: Schema.testautonumdata__Position__c
+ - Error on src/classes/MyCustomController.cls (51:41) : Variable does not exist: Schema.sObjectType.testautonumdata__Interview__c.fields.id
+ - Error on src/classes/MyCustomController.cls (52:41) : Variable does not exist: Schema.sObjectType.testautonumdata__Candidate__c.fields.name
+ - Error on src/classes/MyCustomController.cls (53:41) : Variable does not exist: Schema.sObjectType.testautonumdata__Interview__c.fields.testautonumdata__Candidate__c
+ - Error on src/classes/MyCustomController.cls (54:41) : Variable does not exist: Schema.sObjectType.testautonumdata__Interview__c.fields.Name
+ - Error on src/classes/MyCustomController.cls (55:41) : Variable does not exist: Schema.sObjectType.testautonumdata__Interview__c.fields.testautonumdata__Interview_Type__c
+ - Error on src/classes/MyCustomController.cls (57:9) : Invalid type: testautonumdata__Interview__c
+ - Error on src/classes/MyCustomController.cls (59:22) : Invalid type: Schema.testautonumdata__Interview__c
+ - Error on src/classes/OfferLetterCompController.cls (62:13) : Invalid type: testautonumdata__Candidate__c
+ - Error on src/classes/OfferLetterCompController.cls (65:36) : Variable does not exist: candidateRec.testautonumdata__Position__r
+ - Error on src/classes/OfferLetterCompController.cls (68:28) : Variable does not exist: candidateRec
+ - Error on src/classes/OfferLetterCompController.cls (161:13) : Invalid type: testautonumdata__Candidate__c
+ - Error on src/classes/OfferLetterCompController.cls (175:100) : Variable does not exist: candidateRec
+ - Error on src/classes/OfferLetterCompController.cls (71:29) : Variable does not exist: candidateRec
+ - Error on src/classes/OfferLetterCompController.cls (74:30) : Variable does not exist: candidateRec.testautonumdata__Position__r
+ - Error on src/classes/OfferLetterCompController.cls (181:94) : Variable does not exist: candidateRec
+ - Error on src/classes/OfferLetterCompController.cls (224:10) : Invalid type: testautonumdata__Offer__c
+ - Error on src/classes/OfferLetterCompController.cls (230:17) : DML requires SObject or SObject list type: testautonumdata__Offer__c
+ - Error on src/classes/OfferLetterCompController.cls (234:17) : Variable does not exist: rec
+ - Error on src/classes/OfferLetterCompController.cls (235:64) : Variable does not exist: rec
+ - Error on src/classes/OfferLetterCompController.cls (236:17) : DML requires SObject or SObject list type: testautonumdata__Offer__c
+ - Error on src/classes/OfferLetterCompController.cls (241:26) : Variable does not exist: rec
+ - Error on src/classes/OffersLCServerController.cls (25:9) : Invalid type: testautonumdata__Offer__c
+ - Error on src/classes/OffersLCServerController.cls (34:14) : Invalid type: testautonumdata__Offer__c
+ - Error on src/classes/OffersLCServerController.cls (37:71) : Variable does not exist: e
+ - Error on src/classes/OffersLCServerController.cls (40:28) : Variable does not exist: e
+ - Error on src/classes/OffersLCServerController.cls (43:17) : Variable does not exist: e
+ - Error on src/classes/OffersLCServerController.cls (46:32) : Variable does not exist: e.testautonumdata__Expiration_Date__c
+ - Error on src/classes/OffersServerController.cls (34:9) : Invalid type: testautonumdata__Offer__c
+ - Error on src/classes/OffersServerController.cls (43:14) : Invalid type: testautonumdata__Offer__c
+ - Error on src/classes/OffersServerController.cls (49:27) : Variable does not exist: e
+ - Error on src/classes/OffersServerController.cls (50:29) : Variable does not exist: e
+ - Error on src/classes/OffersServerController.cls (51:31) : Variable does not exist: e.testautonumdata__Candidate__r
+ - Error on src/classes/OffersServerController.cls (52:31) : Variable does not exist: e.testautonumdata__Annual_Salary_Offered_Amount__c
+ - Error on src/classes/OffersServerController.cls (53:30) : Variable does not exist: e.testautonumdata__Annual_Salary_Agreed_Amount__c
+ - Error on src/classes/OffersServerController.cls (55:17) : Variable does not exist: e
+ - Error on src/classes/OffersServerController.cls (46:67) : Variable does not exist: e
+ - Error on src/classes/OffersServerController.cls (58:32) : Variable does not exist: e.testautonumdata__Expiration_Date__c
+ - Error on src/classes/PositionControllerExtension.cls (16:48) : Invalid type: testautonumdata__Candidate__c
+ - Error on src/classes/PositionControllerExtension.cls (3:19) : Invalid type: testautonumdata__Position__c
+ - Error on src/classes/PositionControllerExtension.cls (9:25) : Invalid type: testautonumdata__Position__c
+ - Error on src/classes/PositionControllerExtension.cls (13:27) : Variable does not exist: position
+ - Error on src/classes/PositionControllerExtension.cls (13:50) : Variable does not exist: position
+ - Error on src/classes/PositionControllerExtension.cls (17:9) : Invalid type: testautonumdata__Candidate__c
+ - Error on src/classes/ReferralsServerController.cls (149:9) : Invalid type: testautonumdata__Referral__c
+ - Error on src/classes/ReferralsServerController.cls (154:33) : Invalid type: Schema.testautonumdata__Referral__c
+ - Error on src/classes/ReferralsServerController.cls (161:21) : Variable does not exist: referralsList
+ - Error on src/classes/ReferralsServerController.cls (163:58) : Variable does not exist: referralsList
+ - Error on src/classes/ReferralsServerController.cls (164:26) : Invalid type: testautonumdata__Referral__c
+ - Error on src/classes/ReferralsServerController.cls (169:93) : Variable does not exist: e
+ - Error on src/classes/ReferralsServerController.cls (175:38) : Variable does not exist: e
+ - Error on src/classes/ReferralsServerController.cls (177:39) : Variable does not exist: e.Owner
+ - Error on src/classes/ReferralsServerController.cls (179:37) : Variable does not exist: e
+ - Error on src/classes/ReferralsServerController.cls (181:45) : Variable does not exist: e
+ - Error on src/pages/BandwidthExceeded.page : Component c:sitepoweredby does not exist
+ - Error on src/pages/CandidateMap.page : Apex class 'MapRemoter' does not exist
+ - Error on src/pages/ChangePassword.page : Component c:sitefooter does not exist
+ - Error on src/pages/CommunitiesSelfRegConfirm.page : Component c:sitepoweredby does not exist
+ - Error on src/pages/Exception.page : Component c:sitepoweredby does not exist
+ - Error on src/pages/FileNotFound.page : Component c:sitepoweredby does not exist
+ - Error on src/pages/ForgotPassword.page : Component c:sitepoweredby does not exist
+ - Error on src/pages/ForgotPasswordConfirm.page : Component c:sitepoweredby does not exist
+ - Error on src/pages/InMaintenance.page : Component c:sitepoweredby does not exist
+ - Error on src/pages/InterviewQuestions.page : Interviewer__c does not exist
+ - Error on src/pages/InterviewQuestionsLDS.page : Interviewer__c does not exist
+ - Error on src/pages/InterviewQuestionsLDS_Hardcoded_Id.page : Interviewer__c does not exist
+ - Error on src/pages/LinkedinHS.page : Apex class 'linkedinauth' does not exist
+ - Error on src/pages/ReactSearch_UL2.page : Static Resource named react does not exist. Check spelling.
+ - Error on src/pages/SiteLogin.page : Component c:sitelogin does not exist
+ - Error on src/pages/SiteRegister.page : Component c:sitepoweredby does not exist
+ - Error on src/pages/SiteRegisterConfirm.page : Component c:sitepoweredby does not exist
+ - Error on src/pages/SiteTemplate.page : Component c:siteheader does not exist
+ - Error on src/pages/StdExceptionTemplate.page : Component c:sitepoweredby does not exist
+ - Error on src/pages/TwitterHS.page : Apex class 'twitterauth' does not exist
+ - Error on src/pages/TwitterReturn.page : Apex class 'twitterauth' does not exist
+ - Error on src/pages/Unauthorized.page : Component c:sitelogin does not exist
+ - Error on src/pages/UnderConstruction.page : Component c:sitepoweredby does not exist
+ - Error on src/flexipages/oracle.flexipage : We couldn't retrieve the design time component information for component pyandf16:QuickQuote.
+ - Error on src/pages/LinkedInReturn.page : Apex class 'linkedinauth' does not exist

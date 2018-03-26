@@ -1,0 +1,50 @@
+<aura:component >
+<!-- <aura:handler name="init" value="{!this}" action="{!c.doInit}"/> -->
+
+    <aura:attribute name="book" type="BooksSelector"/>
+    <aura:attribute name="bookKey" type="String"/>
+    <aura:attribute name="genres" type="Map[]"/>
+    <aura:attribute name="authors" type="Map[]"/>
+    <aura:attribute name="actions" type="Map[]"/>
+        <tr>
+            <th scope="row" data-label="Book Name">
+                <div class="slds-truncate" title="Cloudhub">
+                    <a onclick="{!c.goToRecord}">{!v.book.bookName}</a></div>
+            </th>
+            <th scope="row" data-label="Genre(s) Name">
+                <div class="slds-truncate" title="Cloudhub">
+                    <aura:iteration var="bookGenre" items="{!v.book.bookGenres}">
+                        <a href="{!'/one/one.app?#/sObject/'+ bookGenre.recordId + '/view'}">
+                            {!bookGenre.genreName}</a>
+                        <br/>
+                    </aura:iteration>
+                </div>
+            </th>
+            
+            <th scope="row" data-label="Author(s) Name">
+                <div class="slds-truncate" title="Cloudhub">
+                    <aura:iteration var="bookAuthor" items="{!v.book.bookAuthors}">
+                        <a href="{!'/one/one.app?#/sObject/'+ bookAuthor.recordId + '/view'}">
+                        {!bookAuthor.authorName}</a>
+                        <br/>
+                    </aura:iteration>
+                </div>
+            </th>
+            <th scope="row" data-label="Genre(s) Name">
+                <div class="slds-truncate" title="Cloudhub">
+                            {!v.book.price}
+                </div>
+            </th>
+            <th scope="row" data-label="Author(s) Name">
+                <div  title="Cloudhub">
+                    <c:bookActions book="{!v.book}"
+                                   bookKey="{!v.bookKey}" 
+                                   genres="{!v.genres}"
+                                   authors="{!v.authors}"
+                                   actions="{!v.actions}"/>
+
+                </div>
+            </th>
+            
+        </tr>
+</aura:component>
